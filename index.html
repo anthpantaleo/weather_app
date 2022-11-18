@@ -16,10 +16,29 @@
       </div>
     </div>
     <div class="field-row">
-      <label for="city">Search for City</label>
+      <label for="city">Search for City:</label>
       <input id="city" type="text" />
     </div>
     <div class="errordisplay">Not a City...</div>
+    <div class="window" style="width: 320px">
+      <div class="title-bar">
+        <div class="title-bar-text" id="citytitle">
+          Toronto <span>Weather:</span>
+        </div>
+      </div>
+      <div class="window-body">
+        <ul>
+          <li>Current Temp: <span id="temp">0</span>C</li>
+          <li>Wind: <span id="wind">fast</span></li>
+          <li>Some Info: <span id="something"></span></li>
+        </ul>
+      </div>
+      <!-- <div class="status-bar">
+        <p class="status-bar-field">Press F1 for help</p>
+        <p class="status-bar-field">Slide 1</p>
+        <p class="status-bar-field">CPU Usage: 14%</p>
+      </div> -->
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

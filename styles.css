@@ -11,3 +11,7 @@ body {
 .errordisplay {
   display: none;
 }
+
+#city {
+  margin-bottom: 10px;
+}
