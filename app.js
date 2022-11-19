@@ -35,7 +35,7 @@ async function getWeather(searchedCity) {
 }
 
 function updateWeatherDisplay(results) {
-  // console.log(results)
+  console.log(results);
   cityTitle.textContent = `${results.name}, ${results.sys.country} Weather:`;
   tempDisplay.textContent = results.main.temp;
   feelsLikeDisplay.textContent = results.main.feels_like;
